@@ -2,7 +2,6 @@ const { ObjectId } = require("mongoose").Types;
 const { User, Thought, Reaction } = require("../models");
 
 module.exports = {
-  // Get all thoughts
   getThoughts(req, res) {
     Thought.find()
       .then(async (thoughts) => {
@@ -16,7 +15,7 @@ module.exports = {
         return res.status(500).json(err);
       });
   },
-  // Get a single thought
+
   getSingleThought(req, res) {
     console.log(req.params.thougthId);
     Thought.findOne({ _id: req.params.thougthId })
@@ -35,7 +34,7 @@ module.exports = {
         return res.status(500).json(err);
       });
   },
-  // create a new thougth
+
   createThought(req, res) {
     Thought.create(req.body)
       .then((dbThoughtData) => {
@@ -57,7 +56,7 @@ module.exports = {
         res.status(500).json(err);
       });
   },
-  // update thought by id
+
   updateThought(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thougthId },
@@ -73,7 +72,7 @@ module.exports = {
       })
       .catch((err) => res.json(err));
   },
-  // Delete a thought
+
   deleteThought(req, res) {
     Thought.findOneAndRemove({ _id: req.params.thougthId })
       .then((dbThoughtData) =>
@@ -94,7 +93,7 @@ module.exports = {
       )
       .catch((err) => res.status(500).json(err));
   },
-  //create reaction
+
   createReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
@@ -112,7 +111,7 @@ module.exports = {
       })
       .catch((err) => res.status(400).json(err));
   },
-  //delete reaction
+
   deleteReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
