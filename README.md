@@ -42,6 +42,8 @@ Mongoose
 
 After installing the dependencies, open in a integrated terminal and run the application with:
 
+npm run seed
+
 node index.js
 
 Link to walkthrough video: 
