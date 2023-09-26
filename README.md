@@ -42,7 +42,7 @@ Mongoose
 
 After installing the dependencies, open in a integrated terminal and run the application with:
 
-node server.js
+node index.js
 
 Link to the webpage: 
 
