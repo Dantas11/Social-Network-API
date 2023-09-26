@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project uses Model-View-Controller (MVC) paradigm to create a blog-style website where developers can create an account, create a new post, edit the post made or delete it, comment on other user's posts. All posts get displayed at main page so users can read them and interact.
+This project is an API for a social network web application. You can create users who can then share their thoughts, creat a friend list and react to other friend's thoughts.
 
 ## Table of Contents
 
