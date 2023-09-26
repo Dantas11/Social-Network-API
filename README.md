@@ -24,7 +24,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 ![Tech Blog](https://github.com/Dantas11/Social-Network-API/blob/main/public/images/social-network.png)
 
-![Tech Blog]()
+![Tech Blog](https://github.com/Dantas11/Social-Network-API/blob/main/public/images/social-network-2.png)
 
 ## Technology
 
