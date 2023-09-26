@@ -8,7 +8,7 @@ This project is an API for a social network web application. You can create user
 
 - [User Story](#user-story)
 - [Screenshots](#screenshots)
-- [Installations](#installations)
+- [Technology](#technology)
 - [Usage](#usage)
 - [Questions](#questions)
 
@@ -26,21 +26,17 @@ SO THAT my website can handle large amounts of unstructured data
 
 ![Tech Blog]()
 
-## Installation
+## Technology
 
-node.js
+Javascript
 
-express.js
+Node.js
 
-MySQL2
+Express.js
 
-Sequelize
+MongoDB
 
-dotenv
-
-bcrypt
-
-express-handlebars
+Mongoose
 
 ## Usage
 
