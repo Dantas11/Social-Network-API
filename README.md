@@ -22,7 +22,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## SCREENSHOTS
 
-![Tech Blog]()
+![Tech Blog](https://github.com/Dantas11/Social-Network-API/blob/main/public/images/social-network.png)
 
 ![Tech Blog]()
 
