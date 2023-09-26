@@ -44,7 +44,7 @@ After installing the dependencies, open in a integrated terminal and run the app
 
 node index.js
 
-Link to the walkthrough video: 
+Link to walkthrough video: 
 
 ## Licence
 
