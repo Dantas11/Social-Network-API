@@ -46,7 +46,7 @@ npm run seed
 
 node index.js
 
-Link to walkthrough video: 
+Link to walkthrough video: https://www.youtube.com/watch?v=-p8LKwQLYn4
 
 ## Licence
 
