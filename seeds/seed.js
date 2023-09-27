@@ -48,6 +48,6 @@ connection.once("open", async () => {
   await Thought.collection.insertMany(thougths);
 
   console.table(users);
-  console.info("Seeding complete! 🌱");
+  console.info("Seeding complete!");
   process.exit(0);
 });
